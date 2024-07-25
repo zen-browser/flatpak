@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-    <id>com.zen.browser.alpha</id>
+    <id>com.zen.browser</id>
 
-    <name>Zen Browser Alpha</name>
+    <name>Zen Browser</name>
     <summary>Zen Browser. youur browser, your way!</summary>
 
     <metadata_license>MIT</metadata_license>
@@ -21,7 +21,7 @@
         </ul>
     </description>
 
-    <launchable type="desktop-id">com.zen.browser.alpha.desktop</launchable>
+    <launchable type="desktop-id">com.zen.browser.desktop</launchable>
     <screenshots>
         <screenshot type="default">
             <image>https://get-zen.vercel.app/browser-dark.png</image>
