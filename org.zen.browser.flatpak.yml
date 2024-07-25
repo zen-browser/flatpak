@@ -14,7 +14,7 @@ finish-args:
   - --socket=x11
   - --socket=pcsc
   - --socket=cups
-  - --persist=.zen-browser
+  - --persist=.zen
   - --filesystem=xdg-download:rw
   - --device=all
   - --talk-name=org.freedesktop.FileManager1
