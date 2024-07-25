@@ -25,11 +25,11 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --own-name=com.zen.browser.*
 modules:
-  - name: pulse_browser
+  - name: zen_browser
     buildsystem: simple
     build-commands:
-      - tar -xvf pulse-browser.tar.bz2
-      - mv pulse-browser/ bin/
+      - tar -xvf zen.linux.tar.bz2
+      - mv zen/ bin/
 
       - install -d /app/bin
       - install -d /app/bin/distribution
@@ -48,7 +48,7 @@ modules:
       - chmod +x /app/bin/launch-script.sh
     sources:
       - type: file
-        path: ./pulse-browser.tar.bz2
+        path: ./zen.linux.tar.bz2
 
       - type: file
         path: ./policies.json
