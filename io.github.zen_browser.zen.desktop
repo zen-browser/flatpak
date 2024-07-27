@@ -6,6 +6,6 @@ Name=Zen Browser
 Comment=Zen Browser. Your browser, your way.
 Categories=Network;WebBrowser;
 
-Icon=io.github.zen_browser.desktop
+Icon=io.github.zen_browser.zen
 Exec=launch-script.sh
 Terminal=false
