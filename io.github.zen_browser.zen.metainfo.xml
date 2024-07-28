@@ -32,10 +32,6 @@
         </release>
     </releases>
 
-    <provides>
-        <id>io.github.zen_browser.zen</id>
-    </provides>
-
     <launchable type="desktop-id">io.github.zen_browser.zen.desktop</launchable>
     <screenshots>
         <screenshot type="default">
