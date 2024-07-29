@@ -9,3 +9,5 @@ Categories=Network;WebBrowser;
 Icon=io.github.zen_browser.zen
 Exec=launch-script.sh
 Terminal=false
+
+MimeType=x-scheme-handler/http;x-scheme-handler/https; 
