@@ -8,7 +8,7 @@
     </developer>
 
     <name>Zen Browser</name>
-    <summary>Zen Browser. your browser, your way!</summary>
+    <summary>A fast, beautifull browser</summary>
 
     <metadata_license>MIT</metadata_license>
     <project_license>MPL-2.0</project_license>
@@ -27,8 +27,11 @@
     </description>
 
     <releases>
+        <release version="1.0.0-a.11" date="2024-08-03">
+            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.11</url>
+        </release>
         <release version="1.0.0-a.8" date="2024-07-29">
-            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.9</url>
+            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.8</url>
         </release>
     </releases>
 
