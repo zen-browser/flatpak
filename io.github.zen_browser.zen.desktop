@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Zen Browser
 Exec=launch-script.sh %u
-Icon=zen
+Icon=io.github.zen_browser.zen
 Type=Application
 MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
 StartupWMClass=zen-alpha
