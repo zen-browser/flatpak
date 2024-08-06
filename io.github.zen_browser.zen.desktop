@@ -14,12 +14,12 @@ Actions=new-window;new-private-window;profilemanager;
 
 [Desktop Action new-window]
 Name=Open a New Window
-Exec=launch-script.sh %u
+Exec=/app/zen/zen %u
 
 [Desktop Action new-private-window]
 Name=Open a New Private Window
-Exec=launch-script.sh --private-window %u
+Exec=/app/zen/zen --private-window %u
 
 [Desktop Action profilemanager]
 Name=Open the Profile Manager
-Exec=launch-script.sh --ProfileManager %u
+Exec=/app/zen/zen --ProfileManager %u
