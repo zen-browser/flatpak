@@ -1,9 +1,10 @@
-
+name: Publish Tar
 on:
   workflow_dispatch:
 
 jobs:
   publish-tar:
+    permissions: write-all
     name: Publish tar as release
     runs-on: ubuntu-latest
 
