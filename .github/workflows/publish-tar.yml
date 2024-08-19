@@ -1,0 +1,28 @@
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish-tar:
+    name: Publish tar as release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Archive
+        run: tar -cf archive.tar ./*
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1.1.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.sha }}
+          release_name: Release ${{ github.sha }} (Latest)
+          body: |
+            Changes in this Release
+          draft: false
+          prerelease: false
