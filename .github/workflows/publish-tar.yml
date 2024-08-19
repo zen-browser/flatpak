@@ -22,13 +22,13 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1.1.4
+        uses: softprops/action-gh-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          files: archive.tar
           tag_name: ${{ github.event.inputs.version }}
-          release_name: Release ${{ github.event.inputs.version }} (${{ github.sha }})
+          name:  Release for Zen - ${{ github.event.inputs.version }}
           body: |
-            Changes in this Release
-          draft: false
-          prerelease: false
+            ### Release ${{ github.event.inputs.version }}
+            - sha: ${{ github.sha }}
