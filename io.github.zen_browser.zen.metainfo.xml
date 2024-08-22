@@ -27,6 +27,9 @@
     </description>
 
     <releases>
+        <release version="1.0.0-a.28" date="2024-08-22">
+            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.28</url>
+        </release>
         <release version="1.0.0-a.15" date="2024-08-07">
             <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.15</url>
         </release>
