@@ -6,12 +6,16 @@ on:
         description: 'Version to publish'
         required: true
         default: 'latest'
+  push:
+    branches:
+      - main
 
 jobs:
   publish-tar:
     permissions: write-all
     name: Publish tar as release
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && startsWith(github.event.commits.message, '[release]:'))
 
     steps:
       - name: Checkout
@@ -20,6 +24,10 @@ jobs:
       - name: Archive
         run: tar -cf archive.tar ./*
 
+      - name: Output version from file to variable
+        id: version
+        run: echo "::set-output name=version::$(cat version)"
+
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
@@ -27,8 +35,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: archive.tar
-          tag_name: ${{ github.event.inputs.version }}
-          name:  Release for Zen - ${{ github.event.inputs.version }}
+          tag_name: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.version || steps.version.outputs.version }}
+          name:  Release for Zen - ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.version || steps.version.outputs.version }}
           body: |
-            ### Release ${{ github.event.inputs.version }}
+            ### Release ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.version || steps.version.outputs.version }}
             - sha: ${{ github.sha }}
