@@ -1,83 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-    <metadata_license>MIT</metadata_license>
-    <project_license>MPL-2.0</project_license>
-    <id>io.github.zen_browser.zen</id>
-    
-    <name>Zen</name>
-    <summary>Your browser, your way</summary>
-    
-    <developer id="io.github.zen_browser.zen">
-        <name>Zen Team</name>
-    </developer>
-
-    <description>
-        <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.</p>
-        <ul>
-            <li>Split view</li>
-            <li>Web sidebar</li>
-            <li>Tab groups</li>
-            <li>Customizable interface</li>
-            <li>Vertical Tabs</li>
-            <li>And more...</li>
-        </ul>
-    </description>
-
-    <url type="homepage">https://zen-browser.app</url>
-    <url type="bugtracker">https://github.com/zen-browser/desktop/issues</url>
-    <url type="help">https://docs.zen-browser.app</url>
-    <url type="faq">https://docs.zen-browser.app/faq</url>
-    <url type="donation">https://www.patreon.com/zen_browser</url>
-    <url type="translate">https://crowdin.com/project/zen-browser</url>
-    <url type="contact">https://discord.gg/nnShMQzR4b</url>
-    <url type="vcs-browser">https://github.com/zen-browser</url>
-    <url type="contribute">https://docs.zen-browser.app/contribute/CONTRIBUTING</url>
-
-    <branding>
-        <color type="primary" scheme_preference="light">#d9d9d9</color>
-        <color type="primary" scheme_preference="dark">#f5f5f5</color>
-    </branding>
-    
-    <screenshots>
-        <screenshot type="default">
-            <image>https://get-zen.vercel.app/browser-dark.png</image>
-        </screenshot>
-        <screenshot>
-            <image>https://get-zen.vercel.app/browser-light.png</image>
-        </screenshot>
-    </screenshots>
-
-    <content_rating type="oars-1.1" />
-    <launchable type="desktop-id">io.github.zen_browser.zen.desktop</launchable>
-
-    <requires>
-        <display_length compare="ge">450</display_length>
-    </requires>
-
-    <recommends>
-        <internet>always</internet>
-    </recommends>
-
-    <supports>
-        <control>pointing</control>
-        <control>keyboard</control>
-    </supports>
-
-    <releases>
-        <release version="1.0.0-a.32" date="2024-08-22">
-            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.32</url>
-        </release>
-        <release version="1.0.0-a.28" date="2024-08-22">
-            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.28</url>
-        </release>
-        <release version="1.0.0-a.15" date="2024-08-07">
-            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.15</url>
-        </release>
-        <release version="1.0.0-a.11" date="2024-08-03">
-            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.11</url>
-        </release>
-        <release version="1.0.0-a.8" date="2024-07-29">
-            <url type="details">https://get-zen.vercel.app/release-notes/1.0.0-a.8</url>
-        </release>
-    </releases>
+  <id>io.github.zen_browser.zen</id>
+  <url type="homepage">https://get-zen.vercel.app</url>
+  <content_rating type="oars-1.1"/>
+  <developer id="io.github.zen_browser.zen">
+    <name>Zen Team</name>
+  </developer>
+  <name>Zen Browser</name>
+  <summary>A fast, beautifull browser</summary>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MPL-2.0</project_license>
+  <description>
+    <p>Zen Browser is a firefox based browser that will change the way you surf the web!</p>
+    <ul>
+      <li>Split views</li>
+      <li>Web Sidebar</li>
+      <li>Tab Groups</li>
+      <li>Customizable UI</li>
+      <li>Vertical Tabs</li>
+      <li>And more...</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">io.github.zen_browser.zen.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-3.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-4.png</image>
+    </screenshot>
+  </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#d9d9d9</color>
+    <color type="primary" scheme_preference="dark">#f5f5f5</color>
+  </branding>
+  <releases>
+    <release version="1.0.0-a.32" date="01/09/2024">
+      <url type="details">https://zen-browser.app/release-notes/1.0.0-a.32</url>
+    </release>
+    <release version="1.0.0-a.34" date="01/09/2024">
+      <url type="details">https://zen-browser.app/release-notes/1.0.0-a.34</url>
+    </release>
+  </releases>
 </component>
