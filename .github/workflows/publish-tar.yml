@@ -15,7 +15,6 @@ jobs:
     permissions: write-all
     name: Publish tar as release
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && startsWith(github.event.commits.message, '[release]:'))
 
     steps:
       - name: Checkout
