@@ -25,15 +25,19 @@
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-1.png</image>
+      <caption>A clean and clutter-free web browser interface.</caption>
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-2.png</image>
+      <caption>Split views</caption>
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-3.png</image>
+      <caption>Customize your Zen browser experience.</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-4.png</image>
+      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-4.jpg</image>
+      <caption>Discover the projects behind Zen.</caption>
     </screenshot>
   </screenshots>
   <branding>
