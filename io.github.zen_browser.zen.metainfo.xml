@@ -47,5 +47,8 @@
     <release version="1.0.0-a.34" date="01/09/2024">
       <url type="details">https://zen-browser.app/release-notes/1.0.0-a.34</url>
     </release>
+    <release version="1.0.0-a.35" date="03/09/2024">
+      <url type="details">https://zen-browser.app/release-notes/1.0.0-a.35</url>
+    </release>
   </releases>
 </component>
