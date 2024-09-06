@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>io.github.zen_browser.zen</id>
-  <url type="homepage">https://get-zen.vercel.app</url>
+  <url type="homepage">https://zen-browser.app</url>
   <content_rating type="oars-1.1"/>
   <developer id="io.github.zen_browser.zen">
     <name>Zen Team</name>
