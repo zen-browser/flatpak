@@ -33,7 +33,7 @@
       <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-3.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-4.png</image>
+      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-4.jpg</image>
     </screenshot>
   </screenshots>
   <branding>
@@ -49,6 +49,9 @@
     </release>
     <release version="1.0.0-a.35" date="03/09/2024">
       <url type="details">https://zen-browser.app/release-notes/1.0.0-a.35</url>
+    </release>
+    <release version="1.0.0-a.37" date="03/09/2024">
+      <url type="details">https://zen-browser.app/release-notes/1.0.0-a.37</url>
     </release>
   </releases>
 </component>
