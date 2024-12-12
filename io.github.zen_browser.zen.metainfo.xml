@@ -34,16 +34,13 @@
   </branding>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-1.png</image>
+      <image>https://raw.githubusercontent.com/zen-browser/www/refs/heads/main/src/assets/browser.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-2.png</image>
+      <image>https://raw.githubusercontent.com/zen-browser/www/refs/heads/main/src/assets/browser-splitview.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-3.png</image>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/zen-browser/www/main/public/browser-4.jpg</image>
+      <image>https://raw.githubusercontent.com/zen-browser/www/refs/heads/main/src/assets/browser-compactmode.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
@@ -59,6 +56,9 @@
     <control>keyboard</control>
   </supports>
   <releases>
+    <release version="1.0.2-b.1" date="2024-12-12T01:50:28.976Z">
+      <url type="details">https://zen-browser.app/release-notes/1.0.2-b.1</url>
+    </release>
     <release version="1.0.2-b.0" date="2024-12-10T14:10:39.232Z">
       <url type="details">https://zen-browser.app/release-notes/1.0.2-b.0</url>
     </release>
