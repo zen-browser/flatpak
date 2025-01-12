@@ -2,10 +2,10 @@
 <component type="desktop-application">
   <metadata_license>MIT</metadata_license>
   <project_license>MPL-2.0</project_license>
-  <id>app.zen-browser.zen</id>
+  <id>app.zen_browser.zen</id>
   <name>Zen</name>
   <summary>Stay focused, browse faster</summary>
-  <developer id="app.zen-browser.zen">
+  <developer id="app.zen_browser.zen">
     <name>Zen Team</name>
   </developer>
   <replaces>
@@ -47,7 +47,7 @@
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
-  <launchable type="desktop-id">app.zen-browser.zen.desktop</launchable>
+  <launchable type="desktop-id">app.zen_browser.zen.desktop</launchable>
   <requires>
     <display_length compare="ge">450</display_length>
   </requires>
