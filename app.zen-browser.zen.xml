@@ -2,12 +2,15 @@
 <component type="desktop-application">
   <metadata_license>MIT</metadata_license>
   <project_license>MPL-2.0</project_license>
-  <id>io.github.zen_browser.zen</id>
+  <id>app.zen-browser.zen</id>
   <name>Zen</name>
   <summary>Stay focused, browse faster</summary>
-  <developer id="io.github.zen_browser.zen">
+  <developer id="app.zen-browser.zen">
     <name>Zen Team</name>
   </developer>
+  <replaces>
+    <id>io.github.zen_browser.zen</id>
+  </replaces>
   <description>
     <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.</p>
     <ul>
@@ -44,7 +47,7 @@
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
-  <launchable type="desktop-id">io.github.zen_browser.zen.desktop</launchable>
+  <launchable type="desktop-id">app.zen-browser.zen.desktop</launchable>
   <requires>
     <display_length compare="ge">450</display_length>
   </requires>
