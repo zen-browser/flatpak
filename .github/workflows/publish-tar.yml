@@ -38,4 +38,4 @@ jobs:
           name:  Release for Zen - ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.version || steps.version.outputs.version }}
           body: |
             ### Release ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.version || steps.version.outputs.version }}
-            - sha: ${{ github.sha }}
+            - sha: `${{ github.sha }}`
