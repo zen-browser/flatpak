@@ -28,7 +28,7 @@ jobs:
         id: version
         run: echo "::set-output name=version::$(cat version)"
 
-      - name: Create Release
+      - name: Release
         id: create_release
         uses: softprops/action-gh-release@v2
         env:
