@@ -32,18 +32,25 @@
   <url type="vcs-browser">https://github.com/zen-browser</url>
   <url type="contribute">https://docs.zen-browser.app/contribute/CONTRIBUTING</url>
   <branding>
-    <color type="primary" scheme_preference="light">#d9d9d9</color>
-    <color type="primary" scheme_preference="dark">#f5f5f5</color>
+    <color type="primary" scheme_preference="light">#F2F0E3</color>
+    <color type="primary" scheme_preference="dark">#2A2A2A</color>
   </branding>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/zen-browser/www/refs/heads/main/src/assets/browser.png</image>
+      <caption>Main window</caption>
+      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/zen-browser/www/refs/heads/main/src/assets/browser-splitview.png</image>
+      <caption>Main window in dark mode</caption>
+      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser-dark.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/zen-browser/www/refs/heads/main/src/assets/browser-compactmode.png</image>
+      <caption>The glance feature allows you to view links without actually opening them</caption>
+      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser-glance.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The split view feature allows you to view multiple tabs at once</caption>
+      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser-splitview.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
