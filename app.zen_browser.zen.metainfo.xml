@@ -33,7 +33,7 @@
   <url type="contribute">https://docs.zen-browser.app/contribute/CONTRIBUTING</url>
   <branding>
     <color type="primary" scheme_preference="light">#F2F0E3</color>
-    <color type="primary" scheme_preference="dark">#2A2A2A</color>
+    <color type="primary" scheme_preference="dark">#1F1F1F</color>
   </branding>
   <screenshots>
     <screenshot type="default">
