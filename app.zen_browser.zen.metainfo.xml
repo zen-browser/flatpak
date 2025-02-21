@@ -38,11 +38,11 @@
   <screenshots>
     <screenshot type="default">
       <caption>Main window</caption>
-      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser.png</image>
+      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser-dark.png</image>
     </screenshot>
     <screenshot>
-      <caption>Main window in dark mode</caption>
-      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser-dark.png</image>
+      <caption>Main window in light mode</caption>
+      <image>https://raw.githubusercontent.com/zen-browser/flatpak/refs/heads/main/assets/browser.png</image>
     </screenshot>
     <screenshot>
       <caption>The glance feature allows you to view links without actually opening them</caption>
