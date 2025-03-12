@@ -59,6 +59,9 @@
     <control>keyboard</control>
   </supports>
   <releases>
+    <release version="1.9.1b" date="2025-03-12T16:17:50.449Z">
+      <url type="details">https://zen-browser.app/release-notes/1.9.1b</url>
+    </release>
     <release version="1.9b" date="2025-03-08T10:05:33.994Z">
       <url type="details">https://zen-browser.app/release-notes/1.9b</url>
     </release>
