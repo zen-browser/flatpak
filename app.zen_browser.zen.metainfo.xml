@@ -66,6 +66,42 @@
     <control>keyboard</control>
   </supports>
   <releases>
+    <release version="1.11.2b" date="2025-04-11T20:47:54.153Z">
+      <url type="details">https://zen-browser.app/release-notes/1.11.2b</url>
+    </release>
+    <release version="1.11.1b" date="2025-04-05T10:09:15.769Z">
+      <url type="details">https://zen-browser.app/release-notes/1.11.1b</url>
+    </release>
+    <release version="1.11b" date="2025-04-04T21:48:09.330Z">
+      <url type="details">https://zen-browser.app/release-notes/1.11b</url>
+    </release>
+    <release version="1.10.3b" date="2025-03-27T21:54:53.045Z">
+      <url type="details">https://zen-browser.app/release-notes/1.10.3b</url>
+    </release>
+    <release version="1.10.2b" date="2025-03-26T07:05:16.629Z">
+      <url type="details">https://zen-browser.app/release-notes/1.10.2b</url>
+    </release>
+    <release version="1.10.1b" date="2025-03-21T23:47:11.073Z">
+      <url type="details">https://zen-browser.app/release-notes/1.10.1b</url>
+    </release>
+    <release version="1.10b" date="2025-03-19T07:02:30.059Z">
+      <url type="details">https://zen-browser.app/release-notes/1.10b</url>
+    </release>
+    <release version="1.9.1b" date="2025-03-12T16:17:50.449Z">
+      <url type="details">https://zen-browser.app/release-notes/1.9.1b</url>
+    </release>
+    <release version="1.9b" date="2025-03-08T10:05:33.994Z">
+      <url type="details">https://zen-browser.app/release-notes/1.9b</url>
+    </release>
+    <release version="1.8.2b" date="2025-02-26T06:39:31.117Z">
+      <url type="details">https://zen-browser.app/release-notes/1.8.2b</url>
+    </release>
+    <release version="1.8.1b" date="2025-02-25T06:15:27.402Z">
+      <url type="details">https://zen-browser.app/release-notes/1.8.1b</url>
+    </release>
+    <release version="1.8b" date="2025-02-24T05:26:05.864Z">
+      <url type="details">https://zen-browser.app/release-notes/1.8b</url>
+    </release>
     <release version="1.7.6b" date="2025-02-08T09:16:54.590Z">
       <url type="details">https://zen-browser.app/release-notes/1.7.6b</url>
     </release>
