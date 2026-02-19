@@ -12,14 +12,14 @@
     <id>io.github.zen_browser.zen</id>
   </replaces>
   <description>
-    <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.</p>
+    <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features to maximize productivity:</p>
     <ul>
-      <li>Split view</li>
-      <li>Web sidebar</li>
-      <li>Tab groups</li>
-      <li>Customizable interface</li>
-      <li>Vertical tabs</li>
-      <li>And more…</li>
+      <li>Split views</li>
+      <li>Compact mode</li>
+      <li>Folders</li>
+      <li>Glance</li>
+      <li>Spaces</li>
+      <li>And much more!</li>
     </ul>
   </description>
   <url type="homepage">https://zen-browser.app</url>
@@ -57,6 +57,7 @@
   <supports>
     <control>pointing</control>
     <control>keyboard</control>
+    <control>touch</control>
   </supports>
   <releases>
     <release version="1.18.8b" date="2026-02-16T12:54:11.046Z">
