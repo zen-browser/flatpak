@@ -12,14 +12,14 @@
     <id>io.github.zen_browser.zen</id>
   </replaces>
   <description>
-    <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features to maximize productivity:</p>
+    <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.</p>
     <ul>
-      <li>Split views</li>
-      <li>Compact mode</li>
-      <li>Folders</li>
-      <li>Glance</li>
-      <li>Spaces</li>
-      <li>And much more!</li>
+      <li>Split view</li>
+      <li>Web sidebar</li>
+      <li>Tab groups</li>
+      <li>Customizable interface</li>
+      <li>Vertical tabs</li>
+      <li>And more…</li>
     </ul>
   </description>
   <url type="homepage">https://zen-browser.app</url>
@@ -30,7 +30,7 @@
   <url type="translate">https://crowdin.com/project/zen-browser</url>
   <url type="contact">https://discord.gg/zen-browser</url>
   <url type="vcs-browser">https://github.com/zen-browser</url>
-  <url type="contribute">https://docs.zen-browser.app/contribute</url>
+  <url type="contribute">https://docs.zen-browser.app/contribute/CONTRIBUTING</url>
   <branding>
     <color type="primary" scheme_preference="light">#d9d9d9</color>
     <color type="primary" scheme_preference="dark">#f5f5f5</color>
@@ -57,9 +57,11 @@
   <supports>
     <control>pointing</control>
     <control>keyboard</control>
-    <control>touch</control>
   </supports>
   <releases>
+    <release version="1.18.9b" date="2026-02-19T20:37:01.021Z">
+      <url type="details">https://zen-browser.app/release-notes/1.18.9b</url>
+    </release>
     <release version="1.18.8b" date="2026-02-16T12:54:11.046Z">
       <url type="details">https://zen-browser.app/release-notes/1.18.8b</url>
     </release>
