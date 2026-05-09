@@ -12,13 +12,14 @@
     <id>io.github.zen_browser.zen</id>
   </replaces>
   <description>
-    <p>A fast, private and secure web browser built to improve your day-to-day experience.</p>
+    <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.</p>
     <ul>
-      <li>Spaces</li>
-      <li>Folders</li>
-      <li>Split views</li>
-      <li>Glance</li>
-      <li>And many more!</li>
+      <li>Split view</li>
+      <li>Web sidebar</li>
+      <li>Tab groups</li>
+      <li>Customizable interface</li>
+      <li>Vertical tabs</li>
+      <li>And more…</li>
     </ul>
   </description>
   <url type="homepage">https://zen-browser.app</url>
@@ -58,6 +59,9 @@
     <control>keyboard</control>
   </supports>
   <releases>
+    <release version="1.19.12b" date="2026-05-09T00:02:17.642Z">
+      <url type="details">https://zen-browser.app/release-notes/1.19.12b</url>
+    </release>
     <release version="1.19.11b" date="2026-04-30T14:03:09.897Z">
       <url type="details">https://zen-browser.app/release-notes/1.19.11b</url>
     </release>
